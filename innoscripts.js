@@ -13,7 +13,7 @@
         return;
       }
       
-      const response = await fetch(`http://3.86.145.131/api/accounts/unread-messages/${locationId}/`, {
+      const response = await fetch(`https://notifications.trysaasyway.com/api/accounts/unread-messages/${locationId}/`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
