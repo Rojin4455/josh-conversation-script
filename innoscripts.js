@@ -1,6 +1,6 @@
 (function() {
   
-  let pollingInterval = 60000; // 1 minute
+  let pollingInterval = 30000; // 1 minute
   let activeInterval = null;
   
   async function checkUnreadMessages() {
